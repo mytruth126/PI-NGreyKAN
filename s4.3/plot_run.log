@@ -1,0 +1,19 @@
+figure /mnt/data/PI_NGreyKAN_统一完整复现包_20261030/figures/Four_welds_actual_vs_PI_selected_300dpi.png
+figure /mnt/data/PI_NGreyKAN_统一完整复现包_20261030/figures/Four_welds_actual_vs_comparison_300dpi.png
+figure /mnt/data/PI_NGreyKAN_统一完整复现包_20261030/figures/W01_actual_vs_models_300dpi.png
+figure /mnt/data/PI_NGreyKAN_统一完整复现包_20261030/figures/W02_actual_vs_models_300dpi.png
+figure /mnt/data/PI_NGreyKAN_统一完整复现包_20261030/figures/W03_actual_vs_models_300dpi.png
+figure /mnt/data/PI_NGreyKAN_统一完整复现包_20261030/figures/W04_actual_vs_models_300dpi.png
+      model target   n  seeds      MAE     RMSE     MAPE   MAE_sd  RMSE_sd  MAPE_sd
+    GM(1,N)      D 108      1 0.077487 0.149503 1.347438 0.000000 0.000000 0.000000
+    GM(1,N)      W 108      1 0.150275 0.207428 3.762907 0.000000 0.000000 0.000000
+        GRU      D 108      3 0.061266 0.126170 1.068914 0.002305 0.000705 0.038752
+        GRU      W 108      3 0.162924 0.219231 4.093808 0.006966 0.008221 0.182126
+       Holt      D 108      1 0.041167 0.131575 0.740511 0.000000 0.000000 0.000000
+       Holt      W 108      1 0.148379 0.199518 3.721826 0.000000 0.000000 0.000000
+  LSTM-Lite      D 108      3 0.043557 0.120163 0.775301 0.001193 0.001951 0.019340
+  LSTM-Lite      W 108      3 0.138376 0.198292 3.454582 0.002719 0.002737 0.074604
+Lag-GM(1,N)      D 108      1 0.069749 0.144000 1.218335 0.000000 0.000000 0.000000
+Lag-GM(1,N)      W 108      1 0.151218 0.207703 3.789901 0.000000 0.000000 0.000000
+PI-NGreyKAN      D 108      3 0.041299 0.123645 0.739411 0.000477 0.000729 0.007640
+PI-NGreyKAN      W 108      3 0.134326 0.194752 3.350459 0.000643 0.000847 0.021387

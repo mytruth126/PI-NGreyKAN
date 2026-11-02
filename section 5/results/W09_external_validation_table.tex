@@ -1,0 +1,36 @@
+\begin{table}[htbp]
+    \centering
+    \caption{External W09 prediction accuracy and error-tolerance coverage for weld penetration depth and width.}
+    \label{tab:w09_online_metrics}
+    \setlength{\tabcolsep}{5pt}
+    \renewcommand{\arraystretch}{1.08}
+    \begin{tabular}{lrr}
+        \toprule
+        Metric & Penetration depth & Weld width \\
+        \midrule
+        Number of observations & 193 & 193 \\
+        MAE (mm) & 0.0478 & 0.0995 \\
+        RMSE (mm) & 0.1345 & 0.1290 \\
+        MAPE (\%) & 0.858 & 2.522 \\
+        Mean bias (mm) & +0.0364 & -0.0195 \\
+        MAE for $D=6$ mm (153 points) & 0.0089 & 0.0917 \\
+        MAE for $D<6$ mm (40 points) & 0.1964 & 0.1294 \\
+        Relative error $\leq 2\%$ (\%) & 90.2 & 49.7 \\
+        Relative error $\leq 5\%$ (\%) & 95.9 & 85.5 \\
+        Relative error $>5\%$ (\%) & 4.1 & 14.5 \\
+        Relative error $>10\%$ (\%) & 2.6 & 0.0 \\
+        Absolute error $\leq 0.1$ mm (\%) & 89.1 & 59.6 \\
+        Absolute error $\leq 0.2$ mm (\%) & 94.8 & 85.5 \\
+        \midrule
+        Both targets within 5\% & \multicolumn{2}{c}{81.9\% (158/193)} \\
+        \bottomrule
+    \end{tabular}
+    \par\vspace{3pt}
+    \begin{minipage}{0.90\linewidth}\footnotesize
+    \emph{Note:} This is an external, label-blind sequential replay of W09
+    (193 observations) after fitting on all 528 observations of Cases 1--4.
+    Results use the mean prediction from three independently fitted seeds.
+    Percentages denote illustrative prediction-error tolerances, not industrial
+    weld acceptance specifications. W09 labels are used only for post-hoc scoring.
+    \end{minipage}
+\end{table}

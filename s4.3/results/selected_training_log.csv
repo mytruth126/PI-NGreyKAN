@@ -1,0 +1,4 @@
+﻿model,seed,selected_epoch,validation_score,layers,phys_lambda,physics
+PI-NGreyKAN,2026,15,0.4148121774196625,5-20-2,2.0,LocalThermalInputConsistency
+PI-NGreyKAN,2027,15,0.41225525736808777,5-20-2,2.0,LocalThermalInputConsistency
+PI-NGreyKAN,2028,15,0.40580233931541443,5-20-2,2.0,LocalThermalInputConsistency

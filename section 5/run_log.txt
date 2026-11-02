@@ -1,0 +1,21 @@
+W01-W04 full training sizes: [212, 121, 89, 106] total 528
+W09 independent validation: 193 rows
+Fixed full-training epochs 15 seed 2026
+Completed seed 2026 time 1.4074149131774902
+Fixed full-training epochs 15 seed 2027
+Completed seed 2027 time 0.6733458042144775
+Fixed full-training epochs 15 seed 2028
+Completed seed 2028 time 0.6192030906677246
+D<6 group {'n': np.int64(40), 'MAE': np.float64(0.1964025201797485), 'MAPE': np.float64(3.5705115639574543), 'Rate_5pct': np.float64(80.0)}
+INPUT DRIFT
+ Input  Train_min  Train_max  W09_min  W09_max  Outside_train_range_count  Outside_train_range_pct
+  I_A 203.539993 302.179993   204.17   310.23                          2                 1.036269
+  U_V  19.160000  29.200001    19.58    29.70                          1                 0.518135
+ E_mm  -0.350000   0.910000    -0.04     0.94                          2                 1.036269
+ S_dB  86.080002  97.470001    86.21    98.13                          1                 0.518135
+SUMMARY
+       Group            Target   n      MAE     RMSE     MAPE      Bias    MedAE   P95_AE    MaxAE  Within_2pct  Rate_2pct  Within_5pct  Rate_5pct  Over_5pct  Rate_over_5pct  Over_10pct  Rate_over_10pct  Within_0p1mm  Rate_0p1mm  Within_0p2mm  Rate_0p2mm
+W09 all 193 Penetration depth 193 0.047777 0.134484 0.857860  0.036392 0.008472 0.196069 0.725712          174  90.155440          185  95.854922          8        4.145078           5         2.590674           172   89.119171           183   94.818653
+W09 all 193        Weld width 193 0.099523 0.128961 2.522336 -0.019508 0.077032 0.243240 0.406284           96  49.740933          165  85.492228         28       14.507772           0         0.000000           115   59.585492           165   85.492228
+BOTH: within2% 87 within5% 158
+Finished. Results: /mnt/data/PI_NGreyKAN_W09_独立在线模拟验证/results

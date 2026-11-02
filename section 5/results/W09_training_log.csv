@@ -1,0 +1,4 @@
+﻿seed,fixed_epochs,epoch_selection,final_training_samples,per_sample_streaming_latency_ms,streaming_vs_batch_max_diff_mm,elapsed_s
+2026,15,previous W01-W04 experiments,528,0.21826735832800828,4.76837158203125e-07,0.6490387916564941
+2027,15,previous W01-W04 experiments,528,0.21109274598176306,2.384185791015625e-07,0.6324930191040039
+2028,15,previous W01-W04 experiments,528,0.21033626836314412,4.76837158203125e-07,0.6262719631195068
